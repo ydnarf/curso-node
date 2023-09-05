@@ -8,7 +8,7 @@
 
 // Importar elementos con la sintaxis de desestructuración y requiere.
 
-const { saludar, saludarHolaMundo } = require("./saludos.js");
+const { saludar, saludarHolaMundo } = require("./1. exports.js");
 
 console.log(saludar("Maveli"));
 console.log(saludarHolaMundo());
